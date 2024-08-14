@@ -4,8 +4,6 @@ import random
 from tabulate import tabulate
 import mysql.connector
 
-
-
 class BusTicket:
     def __init__(self):
         self.con=mysql.connector.connect(host="localhost",user="root",password="Stamilak47@#",database="Bus")
