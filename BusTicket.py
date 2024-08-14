@@ -143,7 +143,7 @@ class BusTicket:
                         print("Your Password and Comfirm password are Mismach")
                 else:
                     print("Create Password must one spacial Charecter,one Uppercase alpabet and one number")
-                    break
+                    
         except mysql.connector.Error as err:
             print("*******************************************************************************")
             print("**********************  Please enter Correct Details  *************************")
